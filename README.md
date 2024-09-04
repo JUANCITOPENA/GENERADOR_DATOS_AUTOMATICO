@@ -8,7 +8,7 @@
 
 🔍 En muchos proyectos de análisis de datos y aprendizaje automático, tener acceso a conjuntos de datos grandes y realistas es crucial. Sin embargo, los datos de ventas reales a menudo son confidenciales o difíciles de obtener. Este problema puede obstaculizar el desarrollo y prueba de modelos analíticos y algoritmos de aprendizaje automático.
 
-💡 **Nuestra herramienta resuelve este problema** generando datos de ventas sintéticos que imitan los patrones y la variabilidad del mundo real. Esto permite a los usuarios:
+💡 **Esta  herramienta que he creado resuelve este problema** generando datos de ventas sintéticos que imitan los patrones y la variabilidad del mundo real. Esto permite a los usuarios:
 
 1. Desarrollar y probar modelos de análisis de ventas sin comprometer datos reales.
 2. Experimentar con diferentes escenarios de ventas ajustando los parámetros de generación.
@@ -17,7 +17,7 @@
 
 ## 🌟 Características 🌟
 
-✨ Nuestro Generador de Datos de Ventas ofrece una amplia gama de características diseñadas para proporcionar la máxima flexibilidad y utilidad:
+✨ Mi Generador de Datos Automaticos de Ventas ofrece una amplia gama de características diseñadas para proporcionar la máxima flexibilidad y utilidad:
 
 1. **Generación de datos personalizable**: Cree datos de ventas que se ajusten a sus necesidades específicas.
 2. **Parámetros configurables**:
@@ -100,11 +100,14 @@ Cada registro de venta generado incluye los siguientes campos:
 2. Crea una nueva rama (`git checkout -b feature/AmazingFeature`)
 3. Haz commit de tus cambios (`git commit -m 'Add some AmazingFeature'`)
 4. Haz push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
+5. Abre un Pull Request.
+
+## 🙏 Agradecimientos 🙏
+👏 Gracias a la comunidad de Python y a los autores de las bibliotecas utilizadas en este proyecto. También agradecemos a todos los colaboradores que han ayudado a mejorar esta herramienta.
 
 ## 📄 Licencia 📄
 
-Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+📄 Este proyecto está licenciado bajo la Licencia MIT. Para más detalles, revisa el archivo LICENSE.
 
 ## 📞 Contacto 📞
 
