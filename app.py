@@ -2,6 +2,9 @@ import streamlit as st
 import pandas as pd
 from generate_data import generate_sales_data
 
+# Configura el título de la página del navegador
+st.set_page_config(page_title="📊Generador de Datos JPV📈")
+
 # Aplicar estilos personalizados
 st.markdown("""
     <style>
@@ -132,31 +135,43 @@ if st.sidebar.button('Quién Soy'):
         He realizado varios cursos y certificaciones, soy un amante de la <strong>Tecnología</strong> 🚀, de los <strong>Datos</strong> 📈 y de la <strong>Programación</strong> 👨‍💻. 
         Creo en el poder de la tecnología para aportar valor a las personas, a las empresas y a la educación 🎓.
         </p>
+        <br/>
+       <p style='font-size: 25px; color: #ecf0f1; text-align: justify;'>
+        Mis habilidades van desde el uso de 📊 Herramientas de Analisis de Datos: <strong>SQL</strong> 💾, <strong>Power BI</strong> 📊 y <strong>Python</strong> 🐍 | <strong>Desarrollo de Software</strong> (HTML, CSS, JS, REACT, PHP, C#) 💻, ⚙️Herramientas de Control de Versiones y Gestion de Proyectos: 🔄:<strong>Git</strong> 🗃️, <strong>GitHub</strong> 🌐, <strong>Slack</strong> 💬, <strong>Jira</strong> 📋, <strong>Scrum</strong> 🔄, <strong>Kanban</strong> 📝 | 
+       </p><br/>
+       <p style='font-size: 25px; color: #ecf0f1; text-align: justify;'>
+            Dentro del constante cambio que tiene la tecnología, hay que adaptarse a las nuevas tecnologías disruptivas y a la transformación digital que es inminente en todos los ámbitos. Por ello, he adoptado dentro de mis habilidades el uso de <strong>Inteligencias Artificiales</strong> 🤖 con las plataformas más demandantes (<a href="https://chat.openai.com/">ChatGPT</a>, <a href="https://github.com/features/copilot">Copilot</a> 💻, <a href="https://claude.ai/">Claude</a> 💡, <a href="https://www.perplexity.ai/">Perplexity</a> 💻, <a href="https://v0.dev/chat">v0.dev</a> 💻, <a href="https://llamacoder.together.ai/">LlamaCoder</a> 🐑, <a href="https://gemini.google.com/app">Gemini</a> 🌐). Estas herramientas han incrementado mi <strong>productividad</strong> 🚀 en la <strong>programación</strong> 👨‍💻, el <strong>análisis de datos</strong> 📊 y la creación de <strong>aplicaciones automatizadas</strong> 🤖, contribuyendo a mi crecimiento profesional y personal. 
+        </p>
+
         <p style='font-size: 25px; color: #ecf0f1; text-align: justify;'>
-        Mis Habilidades van desde Uso con en <strong>SQL</strong> 💾, <strong>Power BI</strong> 📊 y <strong>Python</strong> 🐍 | <strong>Desarrollo de Software</strong> (HTML, CSS, JS, REACT, PHP, C#) 💻, SQL | <strong>Soy Instructor de Grado Universitario</strong> 👨‍🏫, <strong>Padre</strong> 👨‍👩‍👧‍👦 y <strong>Amigo</strong> 🤝.
-       </p>
+            <strong>Soy Instructor de Grado Universitario</strong> 👨‍🏫, <strong>Padre</strong> 👨‍👩‍👧‍👦 y <strong>Amigo</strong> 🤝. Imparto cursos, diplomados y charlas para capacitar a futuros profesionales en diversos campos. Me dedico a la enseñanza y la formación, equilibrando mi vida familiar y amistosa. Cada uno de estos roles es fundamental para mi desarrollo personal y profesional, y me esfuerzo por dar lo mejor de mí en cada uno de ellos.
+        </p>
+
+
+
     """, unsafe_allow_html=True)
     st.markdown("""
-    <div style="text-align: center;">
-        <a href="https://www.linkedin.com/in/tu-perfil" target="_blank" style="text-decoration: none; color: #fff200; margin: 0 10px;">
-            <i class="fab fa-linkedin" style="font-size: 48px;"></i>
-        </a>
-        <a href="https://www.youtube.com/channel/tu-canal" target="_blank" style="text-decoration: none; color: #fff200; margin: 0 10px;">
-            <i class="fab fa-youtube" style="font-size: 48px;"></i>
-        </a>
-        <a href="https://github.com/tu-perfil" target="_blank" style="text-decoration: none; color: #fff200; margin: 0 10px;">
-            <i class="fab fa-github" style="font-size: 48px;"></i>
-        </a>
-        <a href="https://twitter.com/tu-perfil" target="_blank" style="text-decoration: none; color: #fff200; margin: 0 10px;">
-            <i class="fab fa-twitter" style="font-size: 48px;"></i>
-        </a>
-        <a href="https://www.facebook.com/tu-perfil" target="_blank" style="text-decoration: none; color: #fff200; margin: 0 10px;">
-            <i class="fab fa-facebook" style="font-size: 48px;"></i>
-        </a>
-        <a href="https://www.instagram.com/tu-perfil" target="_blank" style="text-decoration: none; color: #fff200; margin: 0 10px;">
-            <i class="fab fa-instagram" style="font-size: 48px;"></i>
-        </a>
-    </div>
+   <div style="text-align: center;">
+    <a href="https://www.linkedin.com/in/juancitope%C3%B1a/" target="_blank" style="text-decoration: none; color: #fff200; margin: 0 10px;">
+        <i class="fab fa-linkedin" style="font-size: 48px;"></i>
+    </a>
+    <a href="https://www.youtube.com/channel/UCSob-3E5z4IHtMF5B4bN-FA" target="_blank" style="text-decoration: none; color: #fff200; margin: 0 10px;">
+        <i class="fab fa-youtube" style="font-size: 48px;"></i>
+    </a>
+    <a href="https://github.com/JUANCITOPENA" target="_blank" style="text-decoration: none; color: #fff200; margin: 0 10px;">
+        <i class="fab fa-github" style="font-size: 48px;"></i>
+    </a>
+    <a href="https://twitter.com/JuancitoPenaV" target="_blank" style="text-decoration: none; color: #fff200; margin: 0 10px;">
+        <i class="fab fa-twitter" style="font-size: 48px;"></i>
+    </a>
+    <a href="https://www.facebook.com/juancito.p.v" target="_blank" style="text-decoration: none; color: #fff200; margin: 0 10px;">
+        <i class="fab fa-facebook" style="font-size: 48px;"></i>
+    </a>
+    <a href="https://www.instagram.com/juancito.pena.v/" target="_blank" style="text-decoration: none; color: #fff200; margin: 0 10px;">
+        <i class="fab fa-instagram" style="font-size: 48px;"></i>
+    </a>
+</div>
+
     """, unsafe_allow_html=True)
     st.markdown("""
         <p style='font-size: 25px; color: #ecf0f1; text-align: center; margin-top: 20px;'>
