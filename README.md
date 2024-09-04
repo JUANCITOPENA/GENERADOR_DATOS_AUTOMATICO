@@ -36,6 +36,7 @@ Cada registro de venta generado incluye los siguientes campos:
 
 - **Numero_Pedido**: Identificador único del pedido.
 - **Fecha_Pedido**: Fecha en que se realizó el pedido.
+- **Tipo_Compra**: Método utilizado para completar la compra (En Línea, En Tienda, Pedido Telefónico, Pedido por Correo, Servicio de Suscripción).
 - **Ciudad**: Ciudad donde se realizó el pedido.
 - **País**: País asociado al pedido.
 - **Región**: Región geográfica (Norte, Sur, Este, Oeste) del pedido.
