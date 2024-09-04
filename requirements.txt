@@ -1,0 +1,9 @@
+streamlit
+pandas
+faker
+matplotlib
+plotly
+seaborn
+reportlab
+openpyxl
+statsmodels
