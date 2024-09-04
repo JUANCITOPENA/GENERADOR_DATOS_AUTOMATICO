@@ -130,7 +130,7 @@ if st.sidebar.button('Quién Soy'):
     """, unsafe_allow_html=True)
     st.markdown("""
        <p style='font-size: 25px; color: #ecf0f1; text-align: justify;'>
-        Mi nombre es <strong>Juancito Peña V</strong>, soy <strong>ingeniero en Sistemas y Computación</strong> 💻, con una Especialidad en <strong>Desarrollo de Software</strong> 🖥️, y una Maestría en <strong>Sistemas Mención Gerencial</strong> 🎓. Universidad Dominicana O&M. 
+        🥰Hola, Mi nombre es <strong>Juancito Peña V</strong>, soy <strong>ingeniero en Sistemas y Computación</strong> 💻, con una Especialidad en <strong>Desarrollo de Software</strong> 🖥️, y una Maestría en <strong>Sistemas Mención Gerencial</strong> 🎓. Universidad Dominicana O&M. 
         Actualmente estoy cursando una Maestría en <strong>Ciencia de Datos para Negocios</strong> 📊 (Big Data & Business Analytics). en CEUPE - European Business School. 
         He realizado varios cursos y certificaciones, soy un amante de la <strong>Tecnología</strong> 🚀, de los <strong>Datos</strong> 📈 y de la <strong>Programación</strong> 👨‍💻. 
         Creo en el poder de la tecnología para aportar valor a las personas, a las empresas y a la educación 🎓.
@@ -176,6 +176,6 @@ if st.sidebar.button('Quién Soy'):
     st.markdown("""
         <p style='font-size: 25px; color: #ecf0f1; text-align: center; margin-top: 20px;'>
         Si te interesa este Reporte y tenerlo en tus proyectos, contáctame al: 
-        <a href="mailto:juancito.pena@gmail.com" style='color: #1f77b4;'>juancito.pena@gmail.com</a>. Acordemos un precio.
+        <a href="mailto:juancito.pena@gmail.com" style='color: #1f77b4;'>juancito.pena@gmail.com</a>. Acordemos un precio.💲
         </p>
     """, unsafe_allow_html=True)
