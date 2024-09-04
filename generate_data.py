@@ -269,6 +269,18 @@ def generate_sales_data(start_date, end_date, num_records, num_clients, num_vend
     condiciones_pago = ['Credito', 'Contado/Efectivo', 'Tarjeta Credito', 'Transferencia', 'Bitcoin']
     status_entrega = ['Entregado Completo', 'Pedido Entrega Parcial', 'Pedido Devuelto', 'Direccion Incorrecta', 'Con Reclamo']
 
+    # List of delivery types
+    tipos_entrega = [
+        'Home Delivery',
+        'Click and Collect',
+        'Curbside Pickup',
+        'Pickup Point Delivery',
+        'Workplace Delivery',
+        'Express Shipping',
+        'Scheduled Delivery',
+        'Warehouse Pickup',
+        'Drive-Through'
+        ]
     # Crear un diccionario para asignar códigos únicos a los clientes
     cliente_codigos = {cliente: fake.unique.random_int(min=1000, max=9999) for cliente in clientes}
 
@@ -307,7 +319,7 @@ def generate_sales_data(start_date, end_date, num_records, num_clients, num_vend
             margen = round(total_vendido - total_costo, 2)
             porcentaje_margen = round((margen / total_costo) * 100, 2) if total_costo != 0 else 0
             
-           # Determinar el status de entrega con probabilidad
+            # Determinar el status de entrega con probabilidad
             status = 'Entregado Completo' if random.random() < 0.8 else random.choice(status_entrega)
 
             # Calcular la columna Devoluciones y Dinero_a_Devolver basada en el status de entrega
@@ -324,9 +336,13 @@ def generate_sales_data(start_date, end_date, num_records, num_clients, num_vend
                 devoluciones = 0
                 dinero_a_devolver = 0.00
             
+            # Seleccionar un tipo de entrega aleatorio
+            tipo_entrega = random.choice(tipos_entrega)
+            
             data.append({
                 'Numero_Pedido': numero_pedido,
                 'Fecha_Pedido': date,
+                'Tipo_Entrega': tipo_entrega,  # Nueva columna Tipo_Entrega
                 'Ciudad': ciudad,
                 'Pais': pais,
                 'Region': region,
@@ -350,7 +366,8 @@ def generate_sales_data(start_date, end_date, num_records, num_clients, num_vend
                 '% Margen': porcentaje_margen,
                 'Devoluciones': devoluciones,  # Nueva columna Devoluciones
                 'Status_Entrega': status,
-                'Dinero_a_Devolver': dinero_a_devolver,  # Nueva columna Dinero_a_Devolver
+                'Dinero_a_Devolver': dinero_a_devolver  # Nueva columna Dinero_a_Devolver
+                
             })
 
     # Asegúrate de devolver un DataFrame vacío si no se generan datos
