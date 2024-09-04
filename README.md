@@ -1,4 +1,4 @@
-# 🏪 Generador de Datos de Ventas 🏪
+# 🏪 Generador Automático de Datos de Ventas 🏪
 
 ## 📊 Descripción 📊
 
