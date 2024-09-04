@@ -40,14 +40,14 @@ st.markdown("""
     <style>
     .custom-title {
         text-align: center;
-        font-size: 40px;
+        font-size: 25px;
         color: white;
         width: 100%;  /* Ajusta el ancho según sea necesario */
         margin: 0 auto;  /* Centra el título */
     }
     .custom-header {
         text-align: center;
-        font-size: 28px;
+        font-size: 25px;
         color: #FF6F61;
           width: 100%;  /* Ajusta el ancho según sea necesario */
         margin: 0 auto;  /* Centra el subtítulo */
@@ -140,7 +140,7 @@ if st.sidebar.button('Quién Soy'):
         Mis habilidades van desde el uso de 📊 Herramientas de Analisis de Datos: <strong>SQL</strong> 💾, <strong>Power BI</strong> 📊 y <strong>Python</strong> 🐍 | <strong>Desarrollo de Software</strong> (HTML, CSS, JS, REACT, PHP, C#) 💻, ⚙️Herramientas de Control de Versiones y Gestion de Proyectos: 🔄:<strong>Git</strong> 🗃️, <strong>GitHub</strong> 🌐, <strong>Slack</strong> 💬, <strong>Jira</strong> 📋, <strong>Scrum</strong> 🔄, <strong>Kanban</strong> 📝 | 
        </p><br/>
        <p style='font-size: 25px; color: #ecf0f1; text-align: justify;'>
-            Dentro del constante cambio que tiene la tecnología, hay que adaptarse a las nuevas tecnologías disruptivas y a la transformación digital que es inminente en todos los ámbitos. Por ello, he adoptado dentro de mis habilidades el uso de <strong>Inteligencias Artificiales</strong> 🤖 con las plataformas más demandantes (<a href="https://chat.openai.com/">ChatGPT</a>, <a href="https://github.com/features/copilot">Copilot</a> 💻, <a href="https://claude.ai/">Claude</a> 💡, <a href="https://www.perplexity.ai/">Perplexity</a> 💻, <a href="https://v0.dev/chat">v0.dev</a> 💻, <a href="https://llamacoder.together.ai/">LlamaCoder</a> 🐑, <a href="https://gemini.google.com/app">Gemini</a> 🌐). Estas herramientas han incrementado mi <strong>productividad</strong> 🚀 en la <strong>programación</strong> 👨‍💻, el <strong>análisis de datos</strong> 📊 y la creación de <strong>aplicaciones automatizadas</strong> 🤖, contribuyendo a mi crecimiento profesional y personal. 
+      🌐📈 En un entorno tecnológico en constante evolución, es crucial adaptarse a las nuevas tecnologías disruptivas 💡 y a la transformación digital 🌟 que está impactando todos los ámbitos. Por ello, he integrado en mis habilidades el uso de Inteligencia Artificial 🤖, aprovechando las plataformas más avanzadas y demandadas 🚀 para estar a la vanguardia de la innovación. 💻🔍 (<a href="https://chat.openai.com/">ChatGPT</a>, <a href="https://github.com/features/copilot">Copilot</a> 💻, <a href="https://claude.ai/">Claude</a> 💡, <a href="https://www.perplexity.ai/">Perplexity</a> 💻, <a href="https://v0.dev/chat">v0.dev</a> 💻, <a href="https://llamacoder.together.ai/">LlamaCoder</a> 🐑, <a href="https://gemini.google.com/app">Gemini</a> 🌐). Estas herramientas han incrementado mi <strong>productividad</strong> 🚀 en la <strong>programación</strong> 👨‍💻, el <strong>análisis de datos</strong> 📊 y la creación de <strong>aplicaciones automatizadas</strong> 🤖, contribuyendo a mi crecimiento profesional y personal. 
         </p>
 
         <p style='font-size: 25px; color: #ecf0f1; text-align: justify;'>
