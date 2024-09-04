@@ -67,7 +67,7 @@ Cada registro de venta generado incluye los siguientes campos:
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tuusuario/generador-datos-ventas.git
+   git clone https://github.com/JUANCITOPENA/GENERADOR_DATOS_AUTOMATICO/tree/main
    cd generador-datos-ventas
    ```
 
@@ -111,6 +111,6 @@ Cada registro de venta generado incluye los siguientes campos:
 
 ## 📞 Contacto 📞
 
-Tu Nombre - [@tutwitter](https://twitter.com/tutwitter) - email@example.com
+#### Juancito Peña V. - [@tutwitter](https://x.com/JuancitoPenaV) - juancito.pena@gmail.com
 
 Link del Proyecto: [https://github.com/tuusuario/generador-datos-ventas](https://github.com/tuusuario/generador-datos-ventas)
