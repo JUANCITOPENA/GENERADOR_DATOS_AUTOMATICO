@@ -114,4 +114,4 @@ Cada registro de venta generado incluye los siguientes campos:
 
 #### Juancito Peña V. - [@tutwitter](https://x.com/JuancitoPenaV) - juancito.pena@gmail.com
 
-Link del Proyecto: [https://github.com/tuusuario/generador-datos-ventas](https://github.com/tuusuario/generador-datos-ventas)
+Link del Proyecto: [https://generadordatosautomatico.streamlit.app/)
